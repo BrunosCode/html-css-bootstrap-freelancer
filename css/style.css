@@ -9,3 +9,12 @@
     background-color: #1ABC9C;
 }
 
+i {
+    font-size: 1.5rem;
+}
+
+.hero__img {
+    width: 80%;
+    height: auto;
+    max-width: 300px;
+}
