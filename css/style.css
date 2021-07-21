@@ -15,16 +15,28 @@
     background-color: #1ABC9C;
 }
 
-i {
-    font-size: 1.5rem;
+/* commons  */
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
+.fa-star {
+    font-size: 1.5rem;
+}
+hr {
+    display: inline-block;
+}
+
+
+/* hero section  */
 .hero__img {
     width: 80%;
     height: auto;
     max-width: 300px;
 }
 
+
+/* form  */
 input.form-control,
 textarea.form-control {
     border: none;
@@ -35,4 +47,66 @@ textarea.form-control {
 .form-control::placeholder {
     color: #2C3E50;
     font-size: 1rem;
+}
+
+/* star decoration  */
+.decoration:before,
+.decoration:after {
+    content: "";
+    display: inline-block;
+    height: .2rem;
+    position: relative;
+    width: 7rem;
+    top: -.5rem;
+}
+.decoration:before {
+    right: 1rem;
+}
+.decoration:after {
+    left: 1rem;
+}
+.text-white .decoration:before,
+.text-white .decoration:after {
+    background-color: white;
+}
+.text_primary_400 .decoration:before,
+.text_primary_400 .decoration:after {
+    background-color: #2C3E50;
+}
+
+
+/* circled icons  */
+.circled-icons a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    line-height: 2.5rem;
+    margin: 0 .5rem;
+}
+
+/* hover on images  */
+.img_btn {
+    position: relative;
+}
+.img_btn button {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    background-color: #1ABC9C;
+    opacity: .9;
+    font-size: 3rem;
+    color: white;
+    border: none;
+}
+.img_btn:hover button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

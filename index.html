@@ -10,6 +10,11 @@
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- /font awesome  -->
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- /google fonts  -->
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap</title>
 </head>
@@ -18,20 +23,20 @@
     <header class="bg_primary_400">
         <nav class="navbar navbar-expand-lg navbar-dark text-white py-3">
             <div class="container-lg">
-                <a class="navbar-brand" href="#start">START BOOTSTRAP</a>
+                <a class="navbar-brand fw-bold" href="#start">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>       
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#portfolio">PORTFOLIO</a>
+                            <a class="nav-link active fw-bold" href="#portfolio">PORTFOLIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#about">ABOUT</a>
+                            <a class="nav-link active fw-bold" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#content">CONTENT</a>
+                            <a class="nav-link active fw-bold" href="#content">CONTENT</a>
                         </li>
                     </ul>
                 </div>
@@ -44,8 +49,8 @@
             <div class="row">
                 <div class="col-12 text-center text-white">
                     <img src="img/avatar.svg" alt="avatar" class="hero__img mb-3">
-                    <h1 class="mb-3"><strong>START BOOTSTRAP</strong></h1>
-                    <i class="fas fa-star mb-3"></i>
+                    <h1 class="mb-3 fw-bold">START BOOTSTRAP</h1>
+                    <span class="decoration"><i class="fas fa-star mb-3"></i></span>
                     <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
                 </div>
             </div>
@@ -56,26 +61,44 @@
         <div class="container-lg py-3 py-lg-5">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="mb-3"><strong>PORTFOLIO</strong></h2>
-                    <i class="fas fa-star mb-3"></i>
+                    <h2 class="mb-3 fw-bold">PORTFOLIO</h2>
+                    <span class="decoration"><i class="fas fa-star mb-3"></i></span>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 mb-3 mb-md-4">
-                    <img src="img/cabin.png" alt="cabin" class="img-fluid">
+                    <div class="img_btn">
+                        <img src="img/cabin.png" alt="cabin" class="img-fluid">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 mb-3 mb-md-4">
-                    <img src="img/cake.png" alt="cake" class="img-fluid">
+                    <div class="img_btn">
+                        <img src="img/cake.png" alt="cake" class="img-fluid">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 mb-3 mb-md-4">
-                    <img src="img/circus.png" alt="circus" class="img-fluid">
+                    <div class="img_btn">
+                        <img src="img/circus.png" alt="circus" class="img-fluid">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 mb-3 mb-md-4">
-                    <img src="img/game.png" alt="game" class="img-fluid">
+                    <div class="img_btn">
+                        <img src="img/game.png" alt="game" class="img-fluid">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 mb-3 mb-md-4">
-                    <img src="img/safe.png" alt="safe" class="img-fluid">
+                    <div class="img_btn">
+                        <img src="img/safe.png" alt="safe" class="img-fluid">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 mb-3 mb-md-4">
-                    <img src="img/submarine.png" alt="submarine" class="img-fluid">
+                    <div class="img_btn">
+                        <img src="img/submarine.png" alt="submarine" class="img-fluid">
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,8 +108,8 @@
         <div class="container-lg py-3 py-lg-5">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
-                    <h2 class="mb-3"><strong>ABOUT</strong></h2>
-                    <i class="fas fa-star mb-3"></i>
+                    <h2 class="mb-3 fw-bold">ABOUT</h2>
+                    <span class="decoration"><i class="fas fa-star mb-3"></i></span>
                 </div>
                 <div class="col-10 col-sm-5">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nulla ea error quis quos officia temporibus non assumenda molestias, tenetur exercitationem aliquam dolores ipsam illo possimus laboriosam cum odit aspernatur?
@@ -105,8 +128,8 @@
         <div class="container-lg py-3 py-lg-5">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
-                    <h2 class="mb-3"><strong>CONTACT ME</strong></h2>
-                    <i class="fas fa-star mb-3"></i>
+                    <h2 class="mb-3 fw-bold">CONTACT ME</h2>
+                    <span class="decoration"><i class="fas fa-star mb-3"></i></span>
                 </div>
                 <div class="col-10">
                     <form>
@@ -133,14 +156,20 @@
         <div class="container-lg py-5">
             <div class="row">
                 <div class="col-12 col-sm-4 text-center">
-                    <h4>LOCATION</h4>
+                    <h5>LOCATION</h5>
                     <p>2215 John Daniel Drive Clark, MO 5423</p>
                 </div>
                 <div class="col-12 col-sm-4 text-center">
-                    <h4>AROUND THE WEB</h4>
+                    <h5>AROUND THE WEB</h5>
+                    <div class="circled-icons d-flex justify-content-center">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-4 text-center">
-                    <h4>ABOUT FREELANCER</h4>
+                    <h5>ABOUT FREELANCER</h5>
                     <p>Freelancer is free to use, open source Bootstrap theme created by <span class="text_secondary_400">Start Bootstrap</span>.</p>
                 </div>
             </div>
