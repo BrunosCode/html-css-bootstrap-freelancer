@@ -27,6 +27,15 @@ hr {
     display: inline-block;
 }
 
+/* header fixed  */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
 
 /* hero section  */
 .hero__img {
@@ -53,6 +62,7 @@ textarea.form-control {
 .decoration:before,
 .decoration:after {
     content: "";
+    background-color: currentColor;
     display: inline-block;
     height: .2rem;
     position: relative;
@@ -64,14 +74,6 @@ textarea.form-control {
 }
 .decoration:after {
     left: 1rem;
-}
-.text-white .decoration:before,
-.text-white .decoration:after {
-    background-color: white;
-}
-.text_primary_400 .decoration:before,
-.text_primary_400 .decoration:after {
-    background-color: #2C3E50;
 }
 
 
