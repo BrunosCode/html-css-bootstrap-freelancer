@@ -79,6 +79,7 @@ textarea.form-control {
 
 /* circled icons  */
 .circled-icons a {
+    flex-shrink: 0;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -87,7 +88,7 @@ textarea.form-control {
     width: 2.5rem;
     border-radius: 50%;
     line-height: 2.5rem;
-    margin: 0 .5rem;
+    margin: 0 .5rem 1rem;
 }
 
 /* hover on images  */
